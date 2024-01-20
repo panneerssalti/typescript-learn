@@ -1,0 +1,16 @@
+{
+  "name": "typescript-learn",
+  "version": "1.0.0",
+  "description": "this is my project to learn typescript",
+  "main": "sample.js",
+  "scripts": {
+    "convert": "npx tsc",
+    "run": "node dist/sample.js",
+    "convert-run":"npm run convert && npm run run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
